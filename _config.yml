@@ -98,11 +98,19 @@ render_drafts: false
 post_asset_folder: true
 relative_link: false
 future: true
+
 highlight:
-  enable: true
+  enable: false
   line_number: true
-  auto_detect: true
-  tab_replace:
+  auto_detect: false
+  tab_replace: ''
+  wrap: true
+  hljs: false
+prismjs:
+  enable: true
+  preprocess: true
+  line_number: true
+  tab_replace: ''
 
 # Category & Tag
 default_category: uncategorized
